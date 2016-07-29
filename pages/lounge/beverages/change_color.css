@@ -1,12 +1,47 @@
 P {
+    padding: 80;
     color: red;
-    background-color: yellow;
+    background-color: #D3F195;
+}
+
+* {
+    margin: 200px;
 }
 
 p.greentea {
+    width: 200px;
+    /*區域寬*/
+    padding: 80;
+    /*邊距*/
     color: green;
+    /**/
+    border: solid red 1px;
+    /**/
+    line-height: 30px;
+    /*行距*/
+    letter-spacing: 5px;
+    /*字距*/
+    margin: auto;
+    /*置中*/
 }
 
-h1 {
-    color: green;
+p.rasberry {
+    padding: 60;
+    background: #D3F195;
+    border: solid red 1px;
+    margin: 20px;
+}
+
+p.blueberry {
+    padding: 60;
+    background: #169051;
+    border: solid red 1px;
+}
+
+h2 {
+    color: blue;
+    background: #DA975E;
+}
+
+
 }
