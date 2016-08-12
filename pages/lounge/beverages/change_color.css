@@ -1,47 +1,111 @@
-P {
-    padding: 80;
-    color: red;
-    background-color: #D3F195;
+h1 {
+    font-size: 40px;
+    font-family: fantasy, serif, monospace;
+    color: blue;
+    margin: 15px auto;
+    text-align: center;
 }
 
-* {
-    margin: 200px;
+h2.greentea_h2 {
+    color: red;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
+    text-align: center;
+}
+
+h2.rasberry_h2 {
+    color: darkgreen;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
+    text-align: center;
+}
+
+h2.blueberry_h2 {
+    color: indigo;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
+    text-align: center;
+}
+
+h2.cranberry_h2 {
+    color: mediumslateblue;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
+    text-align: center;
 }
 
 p.greentea {
-    width: 200px;
+    width: 50%;
     /*區域寬*/
     padding: 80;
     /*邊距*/
     color: green;
+    background: aquamarine;
+    border: solid white 3px;
+    border-style: dashed;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
     /**/
-    border: solid red 1px;
-    /**/
-    line-height: 30px;
+    /* line-height: 20px;*/
     /*行距*/
-    letter-spacing: 5px;
+    /* letter-spacing: 10px;*/
     /*字距*/
-    margin: auto;
+    margin: 15px auto;
     /*置中*/
+    /*radius*/
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
 }
 
 p.rasberry {
-    padding: 60;
+    width: 50%;
+    padding: 80;
     background: #D3F195;
-    border: solid red 1px;
-    margin: 20px;
+    border: solid white 1px;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
+    margin: auto;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin: 15px auto;
+    border: solid white 3px;
+    border-style: dashed;
 }
 
 p.blueberry {
+    width: 50%;
     padding: 60;
     background: #169051;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
     border: solid red 1px;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin: 15px auto;
 }
 
-h2 {
-    color: blue;
-    background: #DA975E;
+p.cranberry {
+    width: 50%;
+    padding: 60;
+    background: skyblue;
+    font-size: 30px;
+    font-family: fantasy, serif, monospace;
+    border: solid red 1px;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    margin: 15px auto;
 }
 
-
+a {
+    font-size: 15px;
+    font-family: fantasy, serif, monospace;
+    text-decoration: none;
 }
