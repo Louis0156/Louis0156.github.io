@@ -1,5 +1,21 @@
 body {
+    background-color: #FFFF82;
     font-size: 18px;
+}
+
+div {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #880000;
+}
+
+.more {
+    position: relative;
+    top: 200px;
+    right: 120px;
 }
 
 .photo {
